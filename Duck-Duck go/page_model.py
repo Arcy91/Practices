@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver import Chrome
-from POM.Configuration import get_pre_configured_chrome_driver
+from Config.Configuration import get_pre_configured_chrome_driver
 
 
 class SearchPage:

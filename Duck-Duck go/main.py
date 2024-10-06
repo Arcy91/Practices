@@ -1,5 +1,5 @@
 from page_model import SearchPage
-from POM.Configuration import get_pre_configured_chrome_driver
+from Config.Configuration import get_pre_configured_chrome_driver
 
 
 page = SearchPage(get_pre_configured_chrome_driver())

@@ -15,8 +15,8 @@ def get_pre_configured_chrome_driver () -> webdriver.Chrome:
 if __name__ == '__main__':
 
     browser = get_pre_configured_chrome_driver()
-    browser.get('http://hotel-v3.progmasters.hu/')
+    #browser.get('http://hotel-v3.progmasters.hu/')
 
     browser.maximize_window()
 
-    browser.close()
+    #browser.close()
